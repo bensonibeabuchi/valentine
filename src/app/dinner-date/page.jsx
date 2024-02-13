@@ -61,11 +61,11 @@ const DinnerDatePage = () => {
       onSlideChange={() => console.log('slide change')}
     >
 
-      <SwiperSlide><Image className='mx-auto justify-center items-center grid' src="/images/1.png" width={400} height={400} alt="images" /></SwiperSlide>
-      <SwiperSlide><Image className='mx-auto justify-center items-center grid' src="/images/2.png" width={400} height={400} alt="images" /></SwiperSlide>
-      <SwiperSlide><Image className='mx-auto justify-center items-center grid' src="/images/3.png" width={400} height={400} alt="images" /></SwiperSlide>
+      <SwiperSlide><Image className='mx-auto justify-center items-center grid' src="/images/1.jpg" width={400} height={400} alt="images" /></SwiperSlide>
+      <SwiperSlide><Image className='mx-auto justify-center items-center grid' src="/images/2.jpg" width={400} height={400} alt="images" /></SwiperSlide>
+      <SwiperSlide><Image className='mx-auto justify-center items-center grid' src="/images/3.jpg" width={400} height={400} alt="images" /></SwiperSlide>
       <SwiperSlide><Image className='mx-auto justify-center items-center grid' src="/images/4.jpg" width={400} height={400} alt="images" /></SwiperSlide>
-      <SwiperSlide><Image className='mx-auto justify-center items-center grid' src="/images/5.png" width={400} height={400} alt="images" /></SwiperSlide>
+      <SwiperSlide><Image className='mx-auto justify-center items-center grid' src="/images/5.jpg" width={400} height={400} alt="images" /></SwiperSlide>
     </Swiper>
     <div className='mt-4 flex flex-col items-center justify-center text-center'>
       <p className="text-xl font-bold">Dinner Date Invitation</p>
