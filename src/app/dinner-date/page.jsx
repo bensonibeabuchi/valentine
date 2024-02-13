@@ -3,7 +3,7 @@
 
 import React, { useState, useEffect } from 'react';
 import Image from "next/image";
-import first from "/public/images/1.jpg"
+import first from "/images/1.jpg"
 import second from "/public/images/2.jpg"
 import third from "/public/images/3.jpg"
 import fourth from "/public/images/4.jpg"
