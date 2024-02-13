@@ -18,7 +18,7 @@ const DinnerDatePage = () => {
 
   useEffect(() => {
     // Set the date we're counting down to
-    const countDownDate = new Date("February 17, 2024 00:00:00").getTime();
+    const countDownDate = new Date("February 18, 2024 15:00:00").getTime();
 
     // Update the countdown every second
     const timer = setInterval(() => {
@@ -76,6 +76,7 @@ const DinnerDatePage = () => {
       <p className='md:text-base text-xs'>Come join me for a romantic dinner at</p>
       <p className='font-bold md:text-4xl text-xl md:mt-8 mt-4'> Taj Restaurant | Bar </p>
       <p className='md:text-base text-xs'>1064 Abagbon Cl, Victoria Island</p>
+      <p className='md:text-base text-xs'>Sunday 18, February</p>
       
       <p className='md:text-base text-xs mt-4'>Countdown:</p>
       <div className="md:font-bold font-semibold md:text-xl ">{countdown}</div>
