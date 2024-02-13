@@ -49,7 +49,7 @@ const DinnerDatePage = () => {
   }, []);
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen mx-auto bg-background2 bg-cover">
+    <div className="flex flex-col items-center p-4 justify-center min-h-screen mx-auto bg-background2 bg-cover">
       <Swiper className='mx-auto w-4/5'
       // install Swiper modules
       modules={[ Pagination, Scrollbar, A11y, Autoplay]}
@@ -68,13 +68,13 @@ const DinnerDatePage = () => {
       <SwiperSlide><Image className='mx-auto justify-center items-center grid' src="/images/5.jpg" width={400} height={400} alt="images" /></SwiperSlide>
     </Swiper>
     <div className='mt-4 flex flex-col items-center justify-center text-center'>
-      <p className="text-xl font-bold">Dinner Date Invitation</p>
-      <small className='font-mono'>Come join me for a romantic dinner at</small>
-      <p className='font-bold text-4xl mt-8'> Taj Restaurant | Bar </p>
-      <small>1064 Abagbon Cl, Victoria Island, Lagos 106104, Lagos</small>
+      <p className="md:text-xl text-sm font-bold">Dinner Date Invitation</p>
+      <p className='md:text-base text-xs'>Come join me for a romantic dinner at</p>
+      <p className='font-bold md:text-4xl text-xl md:mt-8 mt-4'> Taj Restaurant | Bar </p>
+      <p className='md:text-base text-xs'>1064 Abagbon Cl, Victoria Island</p>
       
-      <small className='mt-4'>Countdown:</small>
-      <div className="font-bold text-xl">{countdown}</div>
+      <p className='md:text-base text-xs mt-4'>Countdown:</p>
+      <div className="md:font-bold font-semibold md:text-xl ">{countdown}</div>
 
       <p className='mt-4 font-bold'>Dress Code: HOT 🔥</p>
 
