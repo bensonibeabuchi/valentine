@@ -66,6 +66,9 @@ const DinnerDatePage = () => {
       <SwiperSlide><Image className='mx-auto justify-center items-center grid' src="/images/3.jpg" width={400} height={400} alt="images" /></SwiperSlide>
       <SwiperSlide><Image className='mx-auto justify-center items-center grid' src="/images/4.jpg" width={400} height={400} alt="images" /></SwiperSlide>
       <SwiperSlide><Image className='mx-auto justify-center items-center grid' src="/images/5.jpg" width={400} height={400} alt="images" /></SwiperSlide>
+      <SwiperSlide><Image className='mx-auto justify-center items-center grid' src="/images/6.jpg" width={400} height={400} alt="images" /></SwiperSlide>
+      <SwiperSlide><Image className='mx-auto justify-center items-center grid' src="/images/7.jpg" width={400} height={400} alt="images" /></SwiperSlide>
+      <SwiperSlide><Image className='mx-auto justify-center items-center grid' src="/images/8.jpg" width={400} height={400} alt="images" /></SwiperSlide>
     </Swiper>
     <div className='mt-4 flex flex-col items-center justify-center text-center'>
       <p className="md:text-xl text-sm font-bold">Dinner Date Invitation</p>
