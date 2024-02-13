@@ -37,9 +37,9 @@ const HomePage = () => {
     <div className="flex flex-col items-center justify-center min-h-screen bg-back bg-cover">
       <h1 className="text-5xl font-bold text-center mb-8">Will You Be My Valentine Immanuella?</h1>
       <div className="flex space-x-4">
-        <button onClick={handleNoClick} className="py-2 px-4 rounded-lg bg-red-500 text-white hover:scale-105">No</button>
+        <button onClick={handleNoClick} className="py-2 px-4 rounded-lg bg-red-500 text-white">No</button>
         <Link href="/dinner-date">
-          <button style={yesButtonStyle} className="py-2 px-4 rounded-lg bg-blue-500 text-white hover:scale-105">{yesText}</button>
+          <button style={yesButtonStyle} className="py-2 px-4 rounded-lg bg-blue-500 text-white">{yesText}</button>
         </Link>
       </div>
     </div>
