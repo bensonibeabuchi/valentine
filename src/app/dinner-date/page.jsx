@@ -74,9 +74,13 @@ const DinnerDatePage = () => {
       <SwiperSlide><Image className='mx-auto justify-center items-center grid' src={fourth} width={400} height={400} alt="images" /></SwiperSlide>
       <SwiperSlide><Image className='mx-auto justify-center items-center grid' src={fifth} width={400} height={400} alt="images" /></SwiperSlide> */}
       <SwiperSlide><img className='mx-auto justify-center items-center grid' width={400} height={400} src="/images/1.jpg" alt="Your Image" /></SwiperSlide>
+      <SwiperSlide><img className='mx-auto justify-center items-center grid' width={400} height={400} src="/images/2.jpg" alt="Your Image" /></SwiperSlide>
+      <SwiperSlide><img className='mx-auto justify-center items-center grid' width={400} height={400} src="/images/3.jpg" alt="Your Image" /></SwiperSlide>
+      <SwiperSlide><img className='mx-auto justify-center items-center grid' width={400} height={400} src="/images/4.jpg" alt="Your Image" /></SwiperSlide>
+      <SwiperSlide><img className='mx-auto justify-center items-center grid' width={400} height={400} src="/images/5.jpg" alt="Your Image" /></SwiperSlide>
 
     </Swiper>
-    <div className='mt-16 flex flex-col items-center justify-center text-center'>
+    <div className='mt-4 flex flex-col items-center justify-center text-center'>
       <p className="text-xl font-bold">Dinner Date Invitation</p>
       <small className='font-mono'>Come join me for a romantic dinner at</small>
       <p className='font-bold text-4xl mt-8'> Taj Restaurant | Bar </p>
